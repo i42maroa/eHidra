@@ -8,6 +8,7 @@
 - Eloquent
 - Docker
 
+
 ## FUNCIONALIDAD
 
 Sistema que emula la funcionalidad de administración de empleados de una empresa. Posee las siguientes características:
@@ -23,6 +24,16 @@ Sistema que emula la funcionalidad de administración de empleados de una empres
 - Muestra a que grupo de trabajo pertenece cada empleado, podiendo ser modificado en tiempo real aprovechando la funcionalidad que proporciona livewire y apoyandose en Alpine.js
 
 
-## DESCARGAR PROYECTO DESDE DOCKERHUB
+
+## INSTALACIÓN
+
+(Necesario tener instalado DockerDekstop: https://docs.docker.com/docker-for-windows/install/)
+
+Dentro de la carpeta raíz:
+
+    **docker-compose up -d**
+
+
+## DESCARGAR IMAGEN PROYECTO DESDE DOCKERHUB
 
 docker pull amarinprof/ehidra:v1
