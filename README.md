@@ -34,6 +34,8 @@ Dentro de la carpeta raíz:
     docker-compose up -d
 
 
-## DESCARGAR IMAGEN PROYECTO DESDE DOCKERHUB
+##  IMAGEN PROYECTO DOCKERHUB
+
+Repositorio: https://hub.docker.com/repository/docker/amarinprof/ehidra
 
     docker pull amarinprof/ehidra:v1
