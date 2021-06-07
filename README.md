@@ -36,4 +36,4 @@ Dentro de la carpeta raíz:
 
 ## DESCARGAR IMAGEN PROYECTO DESDE DOCKERHUB
 
-docker pull amarinprof/ehidra:v1
+    docker pull amarinprof/ehidra:v1
