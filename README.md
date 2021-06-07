@@ -1,4 +1,4 @@
-**TECNOLOGÍAS USADAS**
+## TECNOLOGÍAS USADAS
 
 - Framework Laravel
 - MySql
@@ -6,8 +6,9 @@
 - Livewire
 - AlpineJs
 - Eloquent
+- Docker
 
-**FUNCIONALIDAD**
+## FUNCIONALIDAD
 
 Sistema que emula la funcionalidad de administración de empleados de una empresa. Posee las siguientes características:
 
@@ -20,3 +21,8 @@ Sistema que emula la funcionalidad de administración de empleados de una empres
 - Muestra cada empleado de manera independiente
 
 - Muestra a que grupo de trabajo pertenece cada empleado, podiendo ser modificado en tiempo real aprovechando la funcionalidad que proporciona livewire y apoyandose en Alpine.js
+
+
+## DESCARGAR PROYECTO DESDE DOCKERHUB
+
+docker pull amarinprof/ehidra:v1
