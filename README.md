@@ -27,11 +27,22 @@ Sistema que emula la funcionalidad de administración de empleados de una empres
 
 ## INSTALACIÓN
 
-(Necesario tener instalado DockerDekstop: https://docs.docker.com/docker-for-windows/install/)
+(Necesario tener instalado Docker: https://docs.docker.com/docker-for-windows/install/)
 
-Dentro de la carpeta raíz:
+- Adquisición de las imagenes de docker (dentro de la carpeta raíz):
 
     docker-compose up -d
+    
+
+- Realización de las migraciones  (dentro de la carpeta raíz):
+    
+    php artisan migrate
+  
+  
+## USO
+
+- Registrar usuario para poder acceder a la creación de empleados
+- Crear empleados para poder interactuar con la funcionalidad
 
 
 ##  IMAGEN PROYECTO DOCKERHUB
