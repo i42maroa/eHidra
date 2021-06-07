@@ -31,7 +31,7 @@ Sistema que emula la funcionalidad de administración de empleados de una empres
 
 Dentro de la carpeta raíz:
 
-    **docker-compose up -d**
+    docker-compose up -d
 
 
 ## DESCARGAR IMAGEN PROYECTO DESDE DOCKERHUB
