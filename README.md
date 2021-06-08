@@ -31,12 +31,12 @@ Sistema que emula la funcionalidad de administración de empleados de una empres
 
 - Adquisición de las imagenes de docker (dentro de la carpeta raíz):
 
-    docker-compose up -d
+    ./vendor/bin/sail up -d
     
 
 - Realización de las migraciones  (dentro de la carpeta raíz):
     
-    php artisan migrate
+    ./vendor/bin/sail artisan migrate
   
   
 ## USO
